@@ -1,0 +1,5 @@
+[multiple], [type=date], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], select, textarea {
+    border-width: 1px;
+    border-radius: 0;
+    padding: .5rem .75rem !important;
+}
