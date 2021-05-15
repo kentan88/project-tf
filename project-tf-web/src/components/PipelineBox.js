@@ -29,7 +29,7 @@ const PipelineBox = ({ pipeline }) => {
             {
               pipeline.latest_pipeline_instance?.stage_instances.map((stage_instance) => {
                 return (
-                  <div tw="bg-green-400 px-3 py-1 m-1"
+                  <div tw="px-3 py-1 m-1"
                        css={[
                          stage_instance.status === "in_progress" && tw`bg-yellow-300`,
                          stage_instance.status === "succeeded" && tw`bg-green-400`,
